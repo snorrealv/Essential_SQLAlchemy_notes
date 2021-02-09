@@ -81,14 +81,7 @@ StyleCopReport.xml
 *.sbr
 *.tlb
 *.tli
-*.tlh
-*.tmp
-*.tmp_proj
-*_wpftmp.csproj
-*.log
-*.vspscc
-*.vssscc
-.builds
+*.tlhAdd .gitignore 
 *.pidb
 *.svclog
 *.scc
@@ -150,10 +143,7 @@ nCrunchTemp_*
 *.mm.*
 AutoTest.Net/
 
-# Web workbench (sass)
-.sass-cache/
-
-# Installshield output folder
+# Web workbench (sass)Add .gitignore 
 [Ee]xpress/
 
 # DocProject is a documentation generator add-in
@@ -348,3 +338,8 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Other Applications and venv
+.venv
+.vscode
+.ipynb_checkpoints
